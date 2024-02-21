@@ -2,7 +2,12 @@ local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Batu
 local window = PabloLib:Create(
 "Gucci UI", -- BeStHaXYT UI
 "Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
-"p" -- You can put any keybind here to open close.
+"p" -- tab1:CreateToggle("Toggle", function(state)
+if state then
+print("Enabled!")
+else
+print("Disabled!")
+end)
 )
 
 ---Tabs---
