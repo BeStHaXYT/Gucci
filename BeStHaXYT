@@ -7,7 +7,7 @@ local window = PabloLib:Create(
 
 ---Tabs---
 
-local tab1 = window:CreateTab("Stay Gucci!")
+local tab1 = window:CreateTab("Stay Gucci!!!")
 
 
 ---buttons---
