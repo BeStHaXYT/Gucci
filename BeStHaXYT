@@ -37,6 +37,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/T
 print(a)
 end)
 
+tab1:CreateButton("Game Hub V5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+print(a)
+end)
+
+tab1:CreateButton("Haxker666 Script hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FreeRobloxScripts1/Haxker_6666666-Hub/main/loader'))()
+print(a)
+end)
+
 tab1:CreateButton("Infinite Yield", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
 print(a)
