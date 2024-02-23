@@ -32,6 +32,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/Name
 print(a)
 end)
 
+tab1:CreateButton("Tiger Admin (Prison Life)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+print(a)
+end)
+
 tab1:CreateButton("Infinite Yield", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
 print(a)
