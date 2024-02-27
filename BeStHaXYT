@@ -37,6 +37,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/T
 print(a)
 end)
 
+tab1:CreateButton("Total Drama (camp)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
+print(a)
+end)
+
 tab1:CreateButton("Game Hub V5", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
 print(a)
