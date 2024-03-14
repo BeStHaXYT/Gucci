@@ -32,11 +32,6 @@ loadstring(Game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 print(a)
 end)
 
-tab1:CreateButton("Nameless Admin", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
-print(a)
-end)
-
 tab1:CreateButton("Tiger Admin (Prison Life)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
 print(a)
