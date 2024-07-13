@@ -38,7 +38,7 @@ print(a)
 end)
 
 tab1:CreateButton("Tiger Admin (Prison Life)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Tiger%20Admin%203.0'))()
 print(a)
 end)
 
